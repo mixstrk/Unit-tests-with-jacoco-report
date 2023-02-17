@@ -9,7 +9,7 @@
 > **Junit-jupiter-params**: <em>5.9.2 - Parameterized tests enables us to execute a single test method multiple times with different parameters.</em><br/>
 > **Junit-bom**: <em>5.9.2 - is JUnit's Bill Of Materials (BOM). When including this BOM, it will ensure to align and manage all JUnit 5 dependency versions</em><br/>
 > **Mockito**: <em>5.1.1- Framework allows the creation of test double objects (mock objects)</em><br/>
-> **Jacoco**: <em>0.8.7 - Plugin provides code coverage metrics for Jav</em><br/>
+> **Jacoco**: <em>0.8.7 - Plugin provides code coverage metrics for Java</em><br/>
 > **Surefire**: <em>3.0.0-M7 -  used during the test phase of the build lifecycle to execute the unit tests of an application.</em><br/> 
 
 ### Test scenario
@@ -19,9 +19,7 @@
 ### Run Tests and Jacoco report
 
 >1) Double click ctrl<br/>
->2) Enter "mvn test"<br/>
->3) Double click ctrl<br/>
->4) Enter "mvn verify"<br/>
+>2) Enter "mvn test verify"<br/>
 
 **There are two ways to open the jacoco report**
 
